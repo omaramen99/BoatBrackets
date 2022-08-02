@@ -1,0 +1,367 @@
+
+.PageHeaderTytle
+{
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 100;
+  position: relative;
+  z-index: 99;
+}
+.PageHeaderHelpCont
+{
+  float: right;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  z-index: 99;
+}
+.PageHeaderHelp
+{
+  font-weight: 100;
+  font-size: 12px;
+margin-right: 3px;
+position: relative;
+top: 2px;
+}
+.navCont
+{
+  margin-top: 15px;
+  
+}
+.HorzSep
+{
+  margin: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.651);
+  position: relative;
+  z-index: 99;
+  margin-bottom: 10px;
+ 
+}
+.BracketInfoTitle
+{
+  font-size: 40px;
+  font-weight: 100;
+  color: rgb(248, 252, 26);
+  position: relative;
+  z-index: 99;
+  top: -15px;
+  width: fit-content;
+}
+
+.BracketInfoLine
+{
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  position: relative;
+  width: fit-content;
+  z-index: 99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PAGE{
+overflow: hidden !important;
+
+width: 100vw;
+height: 100vh;
+}
+.PageContainer
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color: aqua;
+}
+
+.boatCustomizationLayer
+{
+  position: absolute;
+  display: none;
+  
+  top: 0px;
+}
+.DropDowns
+{
+  z-index: 99;
+  width: fit-content;
+}
+.test
+{
+
+position: relative;
+//top: 200px;
+// width: fit-content;
+//     display: inline-block;
+    float: right;
+    position: relative;
+    z-index: 99;
+}
+.UiControlLayer
+{
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+.DropDownCont
+{
+  display: inline-block;
+position: relative;
+width: fit-content;
+ 
+}
+.DropDownsContainer
+{
+  float: right;
+}
+.DropDownCont2
+{
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  top: 0px;
+ 
+}
+.DropDownCont3
+{
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  top: 0px;
+ 
+}
+.testtt
+{
+  display: none;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: aliceblue;
+
+  position: relative;
+  left: 210px;
+  top: 10px;
+}
+.testttt
+{
+  display: none;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: aliceblue;
+
+  position: relative;
+  left: 420px;
+  top: 10px;
+}
+.selectionButtonActive
+{
+ 
+}
+.dropdownItem:focus
+{
+background-color: rgb(243, 199, 6) !important;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.dropDownContainer
+{
+  display: inline-block;
+  width: 150px;
+  
+  background-color:rgb(255, 255, 255) ;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+.dropDownContainer:hover
+{
+
+  background-color:rgb(247, 247, 247) ;
+
+}
+.dropDownContainer:active
+{
+
+  background-color:rgb(240, 240, 240) ;
+
+}
+.dropDownHeader
+{
+  font-size: 10px;
+  color: rgb(206, 206, 206);
+}
+.dropDownTitle
+{
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  
+}
+.dropDownContainer::after {
+  display: none !important;
+  content: "" !important;
+
+}
+.dropDownTitleString
+{
+  float: left;
+}
+.dropDownArrow{
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+float: right;
+position: relative;
+top: -3px;
+
+}
+.HiddenObject
+{
+ 
+}
+
+
+
+
+
+
+
+
+
+.canvasContainer {
+
+
+//display: none;
+
+  grid-area: canvas;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  canvas {
+    display: block;
+
+    height: 100% !important;
+  }
+
+  > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container {
+//   width: 100%;
+//   height: 100%;
+
+//   display: grid;
+//   grid-template-areas:
+//     "header header"
+//     "canvas customization";
+//   grid-template-columns: auto minmax(20em, 30em);
+//   grid-template-rows: 6em auto;
+// }
+
+// .headerContainer {
+//   height: 20px;
+//   grid-area: header;
+//   background-color: #d8d8d8;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   box-sizing: border-box;
+//   padding: 0 1em;
+
+//   .headerTitle {
+//     color: #333333;
+//     font-size: 2em;
+//   }
+//   .headerIcon {
+//     color: black;
+//     width: 3em;
+//     height: 3em;
+//     cursor: pointer;
+//   }
+// }
+
+
+
+// .customizationContainer {
+//   grid-area: customization;
+//   background-color: white;
+
+//   .customizationHeader {
+//     position: relative;
+//     width: 100%;
+//     background-color: black;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     box-sizing: border-box;
+
+//     .title {
+//       color: white;
+//       font-family: sans-serif;
+//       margin: 1em 0 1em 1em;
+//       font-family: 1em;
+//     }
+//     button {
+//       position: absolute;
+//       right: 0;
+//       top: 0;
+//       padding: 0 1em;
+//       display: block;
+//       height: 100%;
+//       border: 1px solid #979797;
+//       box-sizing: border-box;
+
+//       font-family: 1em;
+//       background-color: #d8d8d8;
+//     }
+//   }
+// }

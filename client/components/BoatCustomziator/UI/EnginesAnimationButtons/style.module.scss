@@ -1,0 +1,88 @@
+.AnimatoinButton
+{
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+
+  border: 2px solid #ffd752;
+  box-sizing:content-box;
+  margin: 0.5em;
+  cursor: pointer;
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.AnimatoinButton:hover::after
+{
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.151);
+  box-sizing:border-box;
+  border: 2px solid #ffd752;
+  content: ' ';
+}
+.AnimatoinButton:active:after
+{
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color:rgba(0, 0, 0, 0.247);
+  content: ' ';
+}
+
+
+
+.Disabled
+{
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+
+  border: 2px solid #ffd752;
+  box-sizing:content-box;
+  margin: 0.5em;
+  cursor:not-allowed;
+  
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
+  
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.Disabled:after {
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color:rgba(255, 255, 255, 0.541);
+  content: ' ';
+}
+

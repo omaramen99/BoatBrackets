@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1em;
+  margin-top: 1em;
+
+  .title {
+    font-family: sans-serif;
+    font-size: 1em;
+  }
+  .strip {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+
+    margin-top: 1em;
+
+    .stripElement {
+      margin: 0.5em;
+      width: 6em;
+      height: 6em;
+      border: 1px solid #52acff;
+      background-size: contain;
+      background-position: center;
+      cursor: pointer;
+    }
+  }
+}
